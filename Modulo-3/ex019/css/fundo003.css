@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+
+section.bloco{
+    background-image: url('../image/wallpaper003_ref_posição.jpg');
+    height: 200px;
+    border:  1px solid black;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+section#q1{
+    background-position: left top;
+}
+
+section#q2{
+    background-position: left center;
+}
+
+section#q3{
+    background-position: right bottom;
+}
+
+section#q4{
+    background-position: center center;
+}
