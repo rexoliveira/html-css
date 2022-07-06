@@ -2,17 +2,26 @@
 
 body{
     height: 100vh;
-    background-color: black;
+    /* background-color: black;
     background-image: url('../image/wallpaper002.jpg');
     background-position: center center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     /* cover=corta e se adapta, sendo 100% da viewport */
+    /* background-size: cover ;
+    background-attachment: fixed; */
+    /* 
+        Shorthand -background
+        Oredem: color > image > position > repeat > [size] > attachment
+        
+    */
+    background: black url('../image/wallpaper002.jpg') center center no-repeat fixed;
+    /*[size] cover - não esta funcionando conforme documentação official */
     background-size: cover ;
 }
 
 main{
     background-color: white;
-    width: 400px;
+    max-width: 400px;
     padding: 10px;
     margin: auto;
     border: 1px solid darkblue;
