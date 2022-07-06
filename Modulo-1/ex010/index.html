@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalhando comLinks</title>
+  </head>
+  <body>
+    <h1>Usando links externos</h1>
+    <h2>
+      <i
+        ><a
+          href="assets/10 - Ligações em toda parte.pdf"
+          target="_blank"
+          type="applicatio/pdf"
+          >PDF</a
+        ></i
+      >
+      da aula.
+    </h2>
+    <!-- target="_blank" abre em outra página -->
+    <!-- target="_self" abrir na propria página -->
+    <!-- lista de types = https://www.iana.org/assignments/media-types/media-types.xhtml#application -->
+    <p>
+      Você pode acessar o meu
+      <a href="https://github.com/rexoliveira" target="_blank" rel="external">
+        repositório público no GitHub
+      </a>
+    </p>
+    <p>
+      Você pode acessar o meu
+      <a
+        href="https://youtube.com./cursoemvideo/"
+        target="_blank"
+        rel="external"
+      >
+        canal gratuito no youtube
+      </a>
+    </p>
+
+    <!-- ################################################################################-->
+    <h1>Usando links interno</h1>
+    <p>
+      Está é a primeira página do site. Se você quiser, pode acessar também a
+      minha <a href="pag002.html" target="_self" rel="next">segunda página.</a>
+    </p>
+
+    <p>
+      Você também pode acessar a nossa
+      <a href="noticias/pag003.html" target="_self" rel="next"
+        >página de notícias.
+      </a>
+    </p>
+
+    <!-- ################################################################################-->
+    <h1>Links para downloads</h1>
+    <ul>
+      <li>
+        <a
+          href="livro/meulivro.pdf"
+          download="meulivro.pdf"
+          type="application/pdf"
+          >Baixar o livro em pdf
+        </a>
+      </li>
+      <li>
+        <a
+          href="livro/meulivro.zip"
+          download="meulivro.zip"
+          type="application/zip"
+          >Livro compactado em ZIP
+        </a>
+      </li>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+/* Alinhamentos */
+
+body{
+    font: normal 16px arial, Verdana, serif;
+    text-align: left;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: right;
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px; /* Identa a primeira linha do pagragrafo */
+}

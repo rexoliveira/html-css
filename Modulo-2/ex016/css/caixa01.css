@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+
+h1 {/* BOX_LEVEL */
+    background-color: lightgrey;
+    /* box-size */
+    height: 300px;
+    width: 300px;
+
+    /* border-width: 10px;
+    border-style: solid;
+    border-color: darkslategray; */
+    /* Simplificado */
+    border: 10px solid darkslategray;
+
+    /* padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; */
+    /* Simplificado */
+    /* ou padding:10px sendo as 4 iguais */
+    padding: 10px 10px 10px 10px;
+
+    /* margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px; */
+    /* Simplificado */
+    /* margin: 20px 20px 40px 20px; */
+    margin: 20px auto 40px auto;
+
+    /* OUTLINE tracejado dentro da margem */
+    /* outline-width: 5px;
+    outline-style: dashed;
+    outline-color: salmon; */
+    /* Simplificado */
+    outline: 5px dashed salmon;
+
+}
+
+a {/* INLINE-LEVEL */
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}

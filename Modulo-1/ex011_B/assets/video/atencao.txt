@@ -1,0 +1,14 @@
+Da prioridade para videos localmente;
+Evitar vídeo de 1080 no site;
+
+Navegador        Arquivos compatíveis
+Microsoft Edge   .mp4 .m4v
+Apple Safari     .mp4 .m4v
+Google Chrome    .mp4 .m4v .webm .ogv
+Mozilla Firefox  .webm .ogv
+Opera            .webm .ogv
+
+Usando a tag video vai consumir muita banda local e o custo 
+pode ficar muito por trafego de dados.
+
+Dica de hospedagem de vídeo=>VIMEO (https://vimeo.com/pt-br/upgrade?vcid=33579&utm_medium=cpc&utm_source=google&gclid=CjwKCAjw2f-VBhAsEiwAO4lNeCPFRieqo6QFA_Fjsc-ccC8dEAsdhBsAhaJ1XErhAmrR21gLcBwydBoCoTQQAvD_BwE&gclsrc=aw.ds)

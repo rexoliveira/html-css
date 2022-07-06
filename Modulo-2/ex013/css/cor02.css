@@ -1,0 +1,14 @@
+*{ /* Configurações globais das CSSs */
+    height: 100%;
+}
+
+/* Paletas de 3 a 5 cores no gradiente e não inferior a 3 */
+body{
+    background-image: linear-gradient( 90deg,#040D3B 10%,#1032E0,#1138FA 50%);
+    background-attachment: fixed;
+}
+
+h1{
+    color: white;
+}
+

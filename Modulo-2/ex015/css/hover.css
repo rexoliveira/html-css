@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div>p {
+    display: none;
+}
+
+div:hover > p { /* hover = pseudo classe */
+    display: flex;
+    color: white;
+    background-color: red;
+}
+
+div:hover {
+    color: red;
+}

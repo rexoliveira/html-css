@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Imagem dinânima</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    
+    <picture>
+        <!-- Respeitar a ordem dos sources -->
+        <source media="(max-width: 750px )" srcset="assets/image/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="assets/image/foto-m.png" type="image/png">
+        <img src="assets/image/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML.</p>
+    <audio src="assets/audio/happy-mistake.mp3" controls   ></audio>
+    <!-- autoplay para iniciar automaticamente -->
+    <!-- MP3 WAV OGG -->
+    <!-- loop repete o audio -->
+    <!-- Evitar o uso de arquivo wav devido ao tamanho -->
+
+    <audio preload="metadata" controls>
+        <source src="assets/audio/guanacast-33.mp3" type="audio/mpeg">
+        <source src="assets/audio/guanacast-33.ogg" type="audio/ogg"><!-- Exemplo de teste -->
+        <source src="assets/audio/guanacast-33.wav" type="audio/wav"><!-- Exemplo de teste -->
+        <p>Infelismente seu navegador não consegue reprosuzir áudio. <a href="assets/audio/guanacast-33.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+
+</body>
+</html>

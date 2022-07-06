@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/* Borda personalizada usando uma imagem */
+h1{
+    border: 14px solid transparent;
+    padding: 2px;
+    border-image-source: url('../image/borda.png');
+    border-image-slice: 27;
+    border-image-repeat: repeat;
+}

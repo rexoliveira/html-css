@@ -1,0 +1,48 @@
+/* A RECOMENDAÇÃO PARA USO DE PÁGINA WEB É "px" E "em" EM TAMANHO DE FONTE*/
+/*  Medidas Absolutas
+    cm, mn, in, px, pc
+
+    Medidas Relativas
+    em, Altura maiuscula de uma fonte
+    ex, Altura x de uma fonte
+    rem, relativo ao root a fonte nesse caso o body
+    vw, largura da viewport(Tamanho da tela)
+    vh, altura da viewport
+    %, porcentagem
+
+
+    16px geralmente = 1em
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'work sans', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    /* weight é o peso da fonte */
+    /* font-weight: 300;
+    font-style: italic;
+    text-decoration: underline;
+    text-shadow: 1px 1px 1px red; */
+    
+}
+
+h1{
+    /* font-family: 'work sans', sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic; */
+    /*Propriedade shorthand font 
+
+    ORDEM: font-style->font-weight-> font-size: ->font-family;
+    */
+    font:italic bolder 3em 'work sans', sans-serif;
+
+}
+
+h2{
+    /* Propriedade shorthand 
+    ORDEM: font-style->font-weight-> font-size: ->font-family;
+     */
+    font: bold 2em 'work sans';
+}
