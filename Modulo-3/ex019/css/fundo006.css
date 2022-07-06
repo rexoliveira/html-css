@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body{
+    height: 100vh;
+    background-color: black;
+    background-image: url('../image/wallpaper002.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* cover=corta e se adapta, sendo 100% da viewport */
+    background-size: cover ;
+}
+
+main{
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid darkblue;
+    border-radius: 15px;
+}
