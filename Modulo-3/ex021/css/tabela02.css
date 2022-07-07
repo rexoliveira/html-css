@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* A tabela */
+table{
+    width: 400px;
+    height: 400px;
+    /* Tira os espaços entre as células */
+    border-collapse: collapse;
+}
+
+/* A célula/dados */
+td{
+    border: 1px solid black;
+    padding: 8px;
+    /* alinhamento horizontal */
+    text-align: left;
+    /* alinhamento vertical */
+    vertical-align: top;
+}
+
+td.numero{
+    text-align: right;
+    color: red;
+    font-weight: bolder;
+}
