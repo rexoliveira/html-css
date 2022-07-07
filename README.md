@@ -4,4 +4,4 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-`<a href="https://rexoliveira.github.io/html-css/Modulo-2/ex017/android.html">Executar o exercíco 017</a>`
+--Arquivos falando sobre RESET E NORMALIZE em CSS no EX020, feito por min, não fazendo parte do curso.
