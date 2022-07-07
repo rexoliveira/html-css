@@ -1,0 +1,13 @@
+{
+  "emmet.variables": {
+    "charset": "UTF-8",
+    "lang": "pt-BR"
+  },
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.preferences": {
+    
+  },
+  "emmet.extensionsPath": [
+    "~/.vs-emmet"
+  ]
+}
