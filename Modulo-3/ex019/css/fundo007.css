@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+#container {
+    /* container no posicionamento relativo e o contedudo no absoluto */
+    background-image: url(../image/target001.png);
+    background-size: 100% 100%;
+
+    position: relative;
+    height: 98vh;
+    padding: 10px;
+    background-color: purple;
+}
+
+#conteudo {
+    background-image: url(../image/target001.png);
+    background-size: 100% 100%;
+    /* Se a posição for absolute pode ser ter left e top */
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+    margin: auto;
+
+    left: 50%;
+    top: 50%;
+
+    /* Movimenta o elemento na tela sendo absoluto */
+    transform: translate(-50%, -50%);
+}
