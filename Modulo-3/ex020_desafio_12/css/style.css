@@ -1,11 +1,22 @@
 @charset "UTF-8";
 
-/* Foi usado uma normalize em css em vex do reset */
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
+/* Foi usado o reset, o normalize não funcionou corretamente */
+
+:root{
+    /* Padrão -> cabeçalho e rodapé*/
+    --fonte1:  Verdana, Genova, Tahoma, sans-serif;
+    /* Para titulos */
+    --fonte2: 'Passion One', cursive;
+    /* Para conteudo */
+    --fonte3: 'Sriracha', cursive;
+}
 
 html, body{
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
 header{
@@ -19,6 +30,10 @@ header > h1{
     /* text-transform: uppercase; */
     /* Letras maiusculas, mas as primeiras letras são maiores */
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    /* O tamanho da fonte baseado na largura da tela */
+    /* Não é melhor aplicação */
+    font-size: 7vw;
 }
 
 header > p{
@@ -40,6 +55,8 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 2.8vw;
 }
 
 section.normal{
@@ -53,7 +70,8 @@ section.imagem{
 }
 
 section.imagem > p{
-    width: 400px;
+    display: inline-block;
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.253);
 }
 footer{
