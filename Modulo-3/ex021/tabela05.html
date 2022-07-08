@@ -21,14 +21,19 @@
         <caption>Exercícios de Tabelas</caption>
         <thead>
           <tr>
+            <!-- (scope="col")Os dados estão em baixo th/td -->
             <th scope="col" class="cabecalho">Grupo</th>
             <th scope="col" class="cabecalho">Nomes</th>
-            <th scope="col" class="cabecalho" colspan="3">Filmes</th>
+            <!-- (scope="colgroup")Um grupo de colunas, para "Filmes", três colunas-->
+            <!-- colspan não interfere no scope -->
+            <th scope="colgroup" class="cabecalho" colspan="3">Filmes</th>
           </tr>
         </thead>
         <tbody>
           <tr class="mulheres">
-            <th scope="row" rowspan="3">Mulheres</th>
+            <!-- (scope="row")Os dados estão em baixo th/td -->
+            <!-- (scope="rowgroup")Um grupo de linhas, para "Mulheres", três linhas-->
+            <th scope="rowgroup" rowspan="3">Mulheres</th>
             <td>Ana Maria Santos</td>
             <td>Alien</td>
             <td>Rambo</td>
@@ -47,7 +52,7 @@
             <td>Big Hero</td>
           </tr>
           <tr class="homens">
-            <th scope="row" rowspan="3">Homens</th>
+            <th scope="rowgroup" rowspan="3">Homens</th>
             <td>Bruno Mendonça</td>
             <td>Intócaveis</td>
             <td>Amnésia</td>
@@ -68,7 +73,8 @@
         </tbody>
         <tfoot>
           <tr>
-            <td colspan="5">Preferência de filmes por grupo de gênero</td>
+              <th scope="row" colspan="4">Total</th>
+              <td>1000</td>
           </tr>
         </tfoot>
       </table>
