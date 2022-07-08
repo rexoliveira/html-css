@@ -26,6 +26,9 @@ body {
 table {
     width: 500px;
     border-collapse: collapse;
+
+    /* Para fixar o cabeçalho conforme a tabela desce */
+    position: relative;
 }
 
 td, th {
@@ -62,6 +65,14 @@ td {
 thead, tfoot {
     background-color: #383838;
     color: white;
+}
+
+/* Para fixar o cabeçalho conforme a tabela desce */
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    left: 0;
+    background-color: #383838;
 }
 
 /* nth-child(2n) de duas em duas vai defindo a propriedade-2n->alteravel*/
