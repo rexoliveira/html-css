@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/tabela07.css" />
+
+    <title>Exercício de Tabelas</title>
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header></header>
+
+    <!-- Corpo -->
+    <main>
+      <table>
+        <!-- Cria um grupo de colunas para CSS -->
+        <!-- <colgroup>
+                <col class="cnome">
+                <col class="csexo">
+                <col class="cidade">
+                <col class="cprofissao">
+            </colgroup> -->
+        <!-- Outra forma usando o span -atribui formatação 
+                a duas coluna ao mesmo tempo 
+                (spancom o numero de colunas como parametro)-->
+        <colgroup>
+          <col class="cnome" />
+          <col class="csexo" />
+          <col class="cgrupo" span="2" />
+          <!-- <col class="cprofissao"> -->
+        </colgroup>
+        <caption>
+          Cadastro
+        </caption>
+        <tr>
+          <th scope="col">Nome</th>
+          <th scope="col">Sexo</th>
+          <th scope="col">Idade</th>
+          <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+          <td>Rodrigo Oliveira</td>
+          <td>M</td>
+          <td>43</td>
+          <td>Analista de Sistemas</td>
+        </tr>
+        <tr>
+          <td>Pedro Andre</td>
+          <td>M</td>
+          <td>25</td>
+          <td>Jornalista</td>
+        </tr>
+        <tr>
+          <td>Maria da Graça</td>
+          <td>F</td>
+          <td>33</td>
+          <td>PO</td>
+        </tr>
+        <tr>
+          <td>Renata Frinz</td>
+          <td>F</td>
+          <td>29</td>
+          <td>Engenheira de Software</td>
+        </tr>
+        <tr>
+          <td>Pedro</td>
+          <td>M</td>
+          <td>53</td>
+          <td>Vendedor</td>
+        </tr>
+        <tr>
+          <td>Jeniffer</td>
+          <td>F</td>
+          <td>41</td>
+          <td>Analista de Projetos</td>
+        </tr>
+      </table>
+    </main>
+
+    <!-- Rodapé -->
+    <footer></footer>
+  </body>
+</html>
