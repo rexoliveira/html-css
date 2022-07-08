@@ -1,22 +1,41 @@
 @charset "UTF-8";
 
-body{
+/* Hierarquia de Tabelas (Simples) TABLE=TABELA (table);
+    TABLE ROW=LINHA DA TABELA (tr);
+        TABLE HEADER=CABEÇALHO DE TABELA (th);
+            TABLE DATA=DADO DE TABELA (td); 
+            
+            
+  Anatomia para Tabelas Grandes
+            TABLE = TABELA
+                CAPTION = LEGENDA DA TABELA
+                     SOMENTE TEXTO   
+                THEAD = CABEÇA DA TABELA
+                      TR, TD, TH;
+                TBODY = CORPO DA TABELA
+                      TR, TD, TH;
+                TFOOT = RODAPÉ DA TABELA
+                      TR, TD, TH;
+*/
+
+
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-table{
+table {
     width: 500px;
     border-collapse: collapse;
 }
 
-td, th{
+td, th {
     border: 1px solid black;
     padding: 10px;
-    
-    
+
+
 }
 
-caption{
+caption {
     font-size: 1.5em;
     font-weight: bold;
     padding: 10px;
@@ -27,25 +46,23 @@ caption{
 }
 
 /* th-CABEÇALHO DE TABELA */
-th{
+th {
     color: white;
 }
 
 /* td-DADO/CÉLULA */
-td{
+td {
     color: black;
 }
 
-.populacao{
+.populacao {
     width: 50px;
 }
 
-thead, tfoot{
+thead, tfoot {
     background-color: darkgray;
 }
 
-td.num{
+td.num {
     text-align: right;
 }
-
-
