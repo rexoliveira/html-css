@@ -27,6 +27,10 @@ thead{
     font-weight: 600;
 }
 
+#exatas, #humanas{
+    text-align: start;
+}
+
 tr, th, td{
     border: 1px solid black;
 }
