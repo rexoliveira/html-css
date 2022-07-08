@@ -1,92 +1,104 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/tabela06.css">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/tabela06.css" />
+
     <title>Tabela - Desafio014</title>
-</head>
-<body>
-    
+  </head>
+  <body>
     <!-- Cabeçalho -->
     <header></header>
-    
+
     <!-- Corpo -->
     <main>
-        <table>
-            <caption></caption>
-            <thead>
-                <tr>
-                    <th scope="col" rowspan="2">Área</th>
-                    <th scope="col" rowspan="2">Disciplinas</th>
-                    <th scope="colgroup" colspan="2">Notas</th>
-                    <th scope="col" rowspan="2">Média</th>                        
-                </tr>
-                <tr>
-                    <th scope="col">Nota 1</th>
-                    <th scope="col">Nota 2</th>
-                </tr>            
-                
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="rowgroup" rowspan="4">Exatas</th>
-                    <td>Matemática</td>
-                    <td class="num">0.0</td>
-                    <td class="num">0.0</td>
-                    <td class="num">0.0</td>
-                </tr>
-                <tr>
-                    <td>Física</td>
-                    <td class="num">0.0</td>
-                    <td class="num">0.0</td>
-                    <td class="num">0.0</td>
-                </tr>
-                <tr>
-                    <td>Químia</td>
-                    <td class="num">0.0</td>
-                    <td class="num">0.0</td>
-                    <td class="num">0.0</td>
-                </tr>
-                <tr>
-                    <td>Biologia</td>
-                    <td class="num">0.0</td>
-                    <td class="num">0.0</td>
-                    <td class="num">0.0</td>
-                </tr>
-                <tr id="media_exatas">
-                    <th scope="col" colspan="4">Média de Exatas</th>
-                    <td class="num">0.0</td>
-                </tr>
-                <tr>
-                    <th scope="rowgroup" rowspan="4">Humanas</th>
-                    <td>História</td>
-                    <td class="num">0.0</td>
-                    <td class="num">0.0</td>
-                    <td class="num">0.0</td>
-                </tr>
-                
-                <tr>
-                    <td>Geografia</td>
-                    <td class="num">0.0</td>
-                    <td class="num">0.0</td>
-                    <td class="num">0.0</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr id="media_humanas">
-                    <th scope="col" colspan="4">Média de Huamanas</th>
-                    <td class="num">0.0</td>
-                </tr>
-            </tfoot>
-        </table>
+      <table>
+        <caption></caption>
+        <thead>
+          <!-- LINHA-1 do thead -->
+          <tr>
+            <th scope="col" rowspan="2">Área</th>
+            <th scope="col" rowspan="2">Disciplinas</th>
+            <!-- 
+                        Notas não usou duas linhas como "Área,Discsplinas e Média", 
+                        usou duas colunas, deixando as linhas para "Nota 1 e Nota 2"
+                     -->
+            <th scope="colgroup" colspan="2">Notas</th>
+            <th scope="col" rowspan="2">Média</th>
+          </tr>
+          <!-- LINHA-2 do thead -->
+          <tr>
+            <!-- Usou a linha não ocupada por Notas, pois ela usou duas colunas -->
+            <th scope="col">Nota 1</th>
+            <th scope="col">Nota 2</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th scope="rowgroup" rowspan="4">Exatas</th>
+            <td>Matemática</td>
+            <td class="num">0.0</td>
+            <td class="num">0.0</td>
+            <td class="num">0.0</td>
+          </tr>
+          <tr>
+            <td>Física</td>
+            <td class="num">0.0</td>
+            <td class="num">0.0</td>
+            <td class="num">0.0</td>
+          </tr>
+          <tr>
+            <td>Químia</td>
+            <td class="num">0.0</td>
+            <td class="num">0.0</td>
+            <td class="num">0.0</td>
+          </tr>
+          <tr>
+            <td>Biologia</td>
+            <td class="num">0.0</td>
+            <td class="num">0.0</td>
+            <td class="num">0.0</td>
+          </tr>
+          <!--
+            media_exatas- 
+            Não pode ser usado como rodapé, pois não tem rodapé
+              no meio da tabela
+             -->
+          <tr id="media_exatas">
+            <th scope="col" colspan="4">Média de Exatas</th>
+            <td class="num">0.0</td>
+          </tr>
+
+          <tr>
+            <th scope="rowgroup" rowspan="4">Humanas</th>
+            <td>História</td>
+            <td class="num">0.0</td>
+            <td class="num">0.0</td>
+            <td class="num">0.0</td>
+          </tr>
+
+          <tr>
+            <td>Geografia</td>
+            <td class="num">0.0</td>
+            <td class="num">0.0</td>
+            <td class="num">0.0</td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr id="media_humanas">
+            <th scope="col" colspan="4">Média de Huamanas</th>
+            <td class="num">0.0</td>
+          </tr>
+        </tfoot>
+      </table>
     </main>
-    
+
     <!-- Rodapé -->
     <footer></footer>
-    
-</body>
+  </body>
 </html>
