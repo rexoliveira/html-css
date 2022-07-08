@@ -60,7 +60,21 @@ td {
 }
 
 thead, tfoot {
-    background-color: darkgray;
+    background-color: #383838;
+    color: white;
+}
+
+/* nth-child(2n) de duas em duas vai defindo a propriedade-2n->alteravel*/
+/* odd->par ou even->impar */
+/* odd ou 2n-1 */
+tbody > tr:nth-child(odd){
+    background-color: rgb(197, 210, 245);
+    text-decoration: underline;
+}
+/* even ou 2n */
+tbody > tr:nth-child(even){
+    background-color: rgb(236, 229, 164);
+    font-weight: 600;
 }
 
 td.num {
