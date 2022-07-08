@@ -15,3 +15,7 @@ td{
     padding: 10px;
     text-align: center;
 }
+/* Minha configuração */
+.linha, .coluna{
+    border:1px solid red;
+}
