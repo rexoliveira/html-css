@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 500px;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+    
+    
+}
+th{
+    color: white;
+}
+
+td{
+    color: black;
+}
+
+thead, tfoot{
+    background-color: darkgray;
+}
+
+td.num{
+    text-align: right;
+}
