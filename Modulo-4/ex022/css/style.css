@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+iframe{
+    height: 500px;
+    width: 500px;
+    border: 2px dashed rgb(3, 252, 119);
+}

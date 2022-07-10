@@ -1,36 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    
-    <link rel="shortcut icon" href="/image/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="/css/style.css">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/image/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/style.css" />
+
     <title>Estudos de iframe</title>
-</head>
-<body>
-    
+  </head>
+  <body>
     <!-- Cabeçalho -->
     <header>
-        <h1>Testando o uso de um iframe</h1>
+      <h1>Testando o uso de um iframe</h1>
     </header>
-    
+
     <!-- Corpo -->
     <main>
+      <p>
+        Acessando o site do
+        <!-- Tamanho padrão do iframe 300x150 -->
+        <!-- scolling="no" faze a barra de rolagem desaprecer ao contrário de scolling="yes", mas depende do navagado para funcionar-->
+        <iframe src="https://www.cursoemvideo.com" 
+        frameborder="0" 
+        height="250"
+        width="250" 
+        scolling="no">
+            <!-- Caso o dispositivo móvel não for compativel com iframe-->
+            <a href="https://www.cursoemvideo.com" target="_blank">Curso em Vídeo</a>
+        </iframe>
+        para aprender a programar.
+      </p>
 
-<p>Acessando o site do 
-    <iframe src="https://www.cursoemvideo.com" frameborder="0"></iframe>
-    para aprender a programar.</p>
-
-    <p>O site do
-        <iframe src="https://www.google.com" frameborder="0"></iframe>
+      <p>
+        O site do
+        <iframe src="https://www.google.com.br" frameborder="0">
+            <a href="https://www.google.com" target="_blank">Google</a>
+        </iframe>
         também é muiot legal.
-    </p>
+      </p>
     </main>
-    
-   <!--  Rodapé -->
+
+    <!--  Rodapé -->
     <footer></footer>
-    
-</body>
+  </body>
 </html>
