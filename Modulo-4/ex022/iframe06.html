@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/image/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/iframe06.css" />
+
+    <title>Iframes</title>
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header>
+      <h1>Conteúdos dentro de iframes</h1>
+    </header>
+
+    <!-- Corpo -->
+    <main>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est et cum sed
+        accusantium corrupti temporibus libero vitae rem beatae natus quidem
+        quis quod blanditiis architecto rerum, aspernatur aliquid recusandae.
+        Nemo corporis officia quo! Odit nulla ipsa, modi in iure sunt mollitia
+        repellendus eaque rerum voluptate architecto est quaerat voluptas
+        reprehenderit amet laboriosam dolorum labore maxime non obcaecati.
+      </p>
+
+      <h2>Vídeos</h2>
+      <div style="padding: 10%; position: relative">
+        <iframe
+          src="https://player.vimeo.com/video/265045525?h=217b87fac0&autoplay=1&loop=1&title=0&byline=0&portrait=0"
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
+          frameborder="0"
+          allow=" fullscreen; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <script src="https://player.vimeo.com/api/player.js"></script>
+
+      <h2>Mapas do Google</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3425.354318276849!2d-51.80341004859341!3d-30.848753581506582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951a76e7b3bb3b8f%3A0x12ec93476c8d04dc!2sR.%20G%C3%A1spar%20Martins%2C%2067%20-%20Vila%20Nova%2C%20Camaqu%C3%A3%20-%20RS%2C%2096180-000!5e0!3m2!1sen!2sbr!4v1657495054711!5m2!1sen!2sbr"
+        width="500"
+        height="350"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+
+      <h2>Documentos Do Google</h2>
+      <iframe id="doc"
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT_EKVj0Go_7sl5e6dw9XgFblJJzqWiiBfSD3mMF-_Uhbxd3ralxT8UQyIjI44l5EgaEv_HtqkCBreE/pubhtml?widget=true&amp;headers=false"
+      ></iframe>
+    </main>
+
+    <!--  Rodapé -->
+    <footer></footer>
+  </body>
+</html>
