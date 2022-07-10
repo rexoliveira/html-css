@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/image/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/iframe05.css" />
+
+    <title>Iframes</title>
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header>
+      <h1>Meu site principal</h1>
+    </header>
+
+    <!-- Corpo -->
+    <main>
+      <a href="#" onclick="clicou()">Clique em mim</a>
+      <div id="saida"></div>
+
+      <script>
+        function clicou(){
+          s = window.document.getElementById("saida")
+          s.innerHTML += '<p>Você clicou!</p>'
+        }
+      </script>
+    </main>
+
+    <!--  Rodapé -->
+    <footer></footer>
+  </body>
+</html>
