@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/image/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/iframe04.css" />
+
+    <title>Iframes</title>
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header>
+      <h1>Meu site principal</h1>
+    </header>
+
+    <!-- Corpo -->
+    <main>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est et cum sed
+        accusantium corrupti temporibus libero vitae rem beatae natus quidem
+        quis quod blanditiis architecto rerum, aspernatur aliquid recusandae.
+        Nemo corporis officia quo! Odit nulla ipsa, modi in iure sunt mollitia
+        repellendus eaque rerum voluptate architecto est quaerat voluptas
+        reprehenderit amet laboriosam dolorum labore maxime non obcaecati.
+      </p>
+
+      <!-- sandbox="sandbox" --Cria um proteção contra ataques não capturando informações -->
+      <!-- referrerpolicy="no-referrer" -- não vai coletar conteúdo -->
+      <iframe
+        src="/page/pag004.html"
+        frameborder="0"
+        sandbox="allow-same-origin 
+       allow-forms 
+       allow-scripts"
+        referrerpolicy="no-referrer"
+        width="400px"
+        height="110px"
+      >
+        <p>Seu navegador não é compatível com iframe</p>
+      </iframe>
+
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est et cum sed
+        accusantium corrupti temporibus libero vitae rem beatae natus quidem
+        quis quod blanditiis architecto rerum, aspernatur aliquid recusandae.
+        Nemo corporis officia quo! Odit nulla ipsa, modi in iure sunt mollitia
+        repellendus eaque rerum voluptate architecto est quaerat voluptas
+        reprehenderit amet laboriosam dolorum labore maxime non obcaecati.
+        Accusamus deserunt deleniti alias fuga illo ea distinctio unde enim
+      </p>
+    </main>
+
+    <!--  Rodapé -->
+    <footer></footer>
+  </body>
+</html>
