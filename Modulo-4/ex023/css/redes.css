@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Esconder barras de rolagens */
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
+/* Ocupar toda a largura pq vai ser carregada dentro do iframe */
+img{
+    width: 100vw;
+}
+
+a{
+    display: block;
+    background-color: darkred;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: red;
+}
