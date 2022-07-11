@@ -15,18 +15,28 @@
 
     <!-- Corpo -->
     <main>
+      <!-- Enviar o dado com o action do form e type="submit" botão -->
+      <form
+        action="cadastro.php"
+        class="form-group"
+        autocomplete="off"
+      >
+        <label for="inome">Nome</label>
+        <input
+          type="text"
+          name="name"
+          id="inome"
+        />
 
+        <label for="isobrenome">Sobrenome</label>
+        <input
+          type="text"
+          name="sobrenome"
+          id="isobrenome"
+        />
 
-      <form class="form-group">
-        <label for="nome"></label>
-        <input type="text" name="name" id="name" class="nome" placeholder="Nome">
-
-        <label for="sobrenome"></label>
-        <input type="text" name="sobrenome" id="sobrenome" class="sobrenome" placeholder="Sobrenome">
-
-        <input type="submit" value="Enviar">
+        <input type="submit" value="Enviar" />
       </form>
-
     </main>
 
     <!--Rodapé -->
