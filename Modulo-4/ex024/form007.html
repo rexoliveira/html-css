@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select, datalist e textarea em HTML</title>
+  </head>
+  <body>
+    <form action="#" method="POST" autocomplete="on">
+      <p>
+        <label for="iestado">Estado:</label>
+        <select name="estado" id="iestado">
+          <option value="" selected>---ESCOLHA---</option>
+
+          <optgroup label="Região Sudeste">
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="SP">São Paulo</option>
+          </optgroup>
+
+          <optgroup label="Região Nordeste">
+            <option value="MA">Maranhão</option>
+            <option value="PE">Pernambuco</option>
+            <option value="RN">Rio Grande do Norte</option>
+          </optgroup>
+        </select>
+      </p>
+
+      <p>
+        <label for="iprofissao">Profissão:</label>
+
+        <input
+          type="text"
+          name="professor"
+          id="iprofissao"
+          list="lstprofissao"
+        />
+        <!-- Permite inserção manual além das sugestões da lista -->
+        <datalist id="lstprofissao">
+          <option value="ADM">Administrador</option>
+          <option value="CONT">Contador</option>
+          <option>Desenvolvedor</option>
+          <option>Professor</option>
+        </datalist>
+      </p>
+
+      <p>
+        <label for="imensagem">Mensagem:</label>
+        <textarea
+          name="mensagem"
+          id="imensagem"
+          cols="30"
+          rows="10"
+          placeholder="Sua mensagem aqui"
+        ></textarea>
+      </p>
+
+      <p>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar" />
+      </p>
+    </form>
+  </body>
+</html>
