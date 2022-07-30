@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elemento output em formulários HTML</title>
+  </head>
+  <body>
+    <form action="#" method="post" autocomplete="on">
+      <p>
+        <label for="iano">Em que ano você nasceu?</label>
+        <input
+          type="number"
+          name="ano"
+          id="iano"
+          min="1900"
+          max="2020"
+          oninput="calcIdade()"
+        />
+      </p>
+      <p>
+        <label for="iidade"
+          >Sua idade em
+          <!-- EU -->
+          <output id="anoAtual"></output>
+           é ou será:</label
+        >
+        <!-- Só serve a para visualizar -->
+        <output id="iidade">0</output>
+      </p>
+      <p>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpar" />
+      </p>
+    </form>
+
+    <script>
+      function calcIdade() {
+        let atual = new Date().getFullYear();
+
+        /* EU */
+        anoAtual.innerHTML = Number(atual);
+
+        iidade.innerHTML = Number(atual) - Number(iano.value);
+      }
+    </script>
+  </body>
+</html>
