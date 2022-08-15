@@ -1,13 +1,9 @@
 @charset "uTF-8";
 
 /*Aparelho deitado*/
-*{
-    margin: 10px;
-    padding: 10px;
+
+body{
+   background-image: url("../image/cev-landscape.jpg");
+   background-position: left bottom;
 }
 
-html{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.5em;
-    line-height: 1.5em;
-}
